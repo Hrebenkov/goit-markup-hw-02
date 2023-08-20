@@ -1,7 +1,7 @@
 :root {
   --logo-brand-color: #4d5ae5;
   --logo-positive-color: #2e2f42;
-  --logo-negative-color: #fff;
+  --logo-negative-color: #f4f4fd;
   --grey: #757575;
   --grey-contacts: rgba(255, 255, 255, 0.6);
   --black: #212121;
@@ -12,6 +12,7 @@
   --slate: #434455;
   --navy-blue: #2e2f42;
   --ocean: #404bbf;
+	--cloud: #f4f4fd;
 }
 
 body {
@@ -187,15 +188,17 @@ body {
 /* образцы работ */
 .samples-title {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  color: var(--black);
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
 }
 
 .samples-description {
   font-size: 16px;
-  line-height: 1.18;
-  color: var(--grey);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
 }
 
 /* footer */
@@ -204,6 +207,7 @@ body {
 }
 .ads {
   font-size: 16px;
-  line-height: 1.18;
-  color: var(--white);
+  line-height: 1.5;
+	letter-spacing: 0.02em
+  color: var(--cloud);
 }
