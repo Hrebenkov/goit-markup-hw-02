@@ -9,13 +9,14 @@
   --background-brand-color: #2f303a;
   --background-button-color: #f5f4fa;
   --background-btn-color: #f5f4fa;
+  --slate: #434455;
 }
 
 body {
   background-color: var(--white);
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
-  color: var(--grey);
+  color: var(--slate);
 }
 
 /* color logo*/
