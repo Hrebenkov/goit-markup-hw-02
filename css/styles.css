@@ -1,6 +1,6 @@
 :root {
-  --logo-brand-color: #2196f3;
-  --logo-positive-color: #000;
+  --logo-brand-color: #4d5ae5;
+  --logo-positive-color: #2e2f42;
   --logo-negative-color: #fff;
   --grey: #757575;
   --grey-contacts: rgba(255, 255, 255, 0.6);
@@ -10,6 +10,8 @@
   --background-button-color: #f5f4fa;
   --background-btn-color: #f5f4fa;
   --slate: #434455;
+  --navy-blue: #2e2f42;
+  --ocean: #404bbf;
 }
 
 body {
@@ -32,8 +34,10 @@ body {
 .logo-negative {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--logo-brand-color);
   text-decoration: none;
 }
@@ -49,19 +53,19 @@ body {
 .menu-link {
   text-decoration: none;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--black);
+  color: var(--navy-blue);
 }
 
 .contacts-link {
   text-decoration: none;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--grey);
+  color: var(--slate);
 }
 
 /* стилизация nav-box на действия */
@@ -69,11 +73,14 @@ body {
 .menu-link:focus,
 .contacts-link:hover,
 .contacts-link:focus {
-  color: var(--logo-brand-color);
+  color: var(--ocean);
 }
 
 .menu-link-action:visited {
   color: var(--black);
+}
+
+.address-list {
 }
 
 /* Main content */
