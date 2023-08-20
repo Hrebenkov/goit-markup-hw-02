@@ -6,7 +6,7 @@
   --grey-contacts: rgba(255, 255, 255, 0.6);
   --black: #212121;
   --white: #fff;
-  --background-brand-color: #2f303a;
+  --background-brand-color: #2e2f42;
   --background-button-color: #f5f4fa;
   --background-btn-color: #f5f4fa;
   --slate: #434455;
@@ -91,10 +91,10 @@ body {
 
 .main-content-title {
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  font-size: 56px;
+  line-height: 1.07;
   text-align: center;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   color: var(--white);
 }
@@ -105,10 +105,10 @@ body {
   border-color: transparent;
 
   font-family: inherit;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--white);
   background-color: var(--logo-brand-color);
   cursor: pointer;
@@ -116,7 +116,7 @@ body {
 
 .order-button:hover,
 .order-button:focus {
-  background-color: #188ce8;
+  background-color: #404bbf;
 }
 
 .visually-hidden {
