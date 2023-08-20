@@ -87,6 +87,7 @@ body {
 }
 
 .address-list {
+  font-style: normal;
 }
 
 /* Main content */
@@ -105,11 +106,7 @@ body {
   color: var(--white);
 }
 
-.order-button {
-  /*
-	padding: 10px 32px;
-  border-radius: 4px;
-	*/
+.orden-button {
   border-color: transparent;
 
   font-family: inherit;
@@ -122,19 +119,15 @@ body {
   cursor: pointer;
 }
 
-.order-button:hover,
-.order-button:focus {
+.orden-button:hover,
+.orden-button:focus {
   background-color: #404bbf;
 }
 
 .visually-hidden {
-  /* position: absolute; */
   white-space: nowrap;
-  /* width: 1px;
-  height: 1px;*/
+
   overflow: hidden;
-  border: 0;
-  /* padding: 0; */
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
